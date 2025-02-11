@@ -4,12 +4,15 @@ using namespace std;
 int main()
 {
     int x = 20;
-    int y = 30;
-    int z = 10;
+    int y;
+    int z;
 
 
-    cout << "Num1\t" << x << " + " << endl;
+    cout << "After 5 years you will be " << x + 10 << "years." << endl;
+    cout << "Enter a Number?" << endl;
+    cin >> y;
     cout << "Num2\t" << y << " + " << endl;
+    cin >> z;
     cout << "Num3\t" << z << endl;
     cout << "------------------------" << endl;
     cout << "Total = " << x + y + z << endl;

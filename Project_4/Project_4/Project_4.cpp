@@ -4,12 +4,12 @@ using namespace std;
 int main()
 {
     string Name;
-    int Age;
+    short Age;
     string  City;
     string Country;
-    int MonthlySalary;
+    short MonthlySalary;
     char Gender;
-    bool Married;
+    bool ISMarried;
 
     cout << "Please enter your informations!" << endl << endl;
 
@@ -32,7 +32,7 @@ int main()
     cin >> Gender;
 
     cout << "Enter your Married !" << endl;
-    cin >> Married;
+    cin >> ISMarried;
 
     cout << "****************************** " << endl;
     cout << "  Name: " << Name << endl;
@@ -42,7 +42,7 @@ int main()
     cout << "  Monthly Salary : " << MonthlySalary << "$" << endl;
     cout << "  Yearly Salary : " << MonthlySalary * 12 << "$" << endl;
     cout << "  Gender : " << Gender << endl;
-    cout << "  Married : " << Married << endl;
+    cout << "  Married : " << ISMarried << endl;
     cout << "******************************\a " << endl;
 
 
