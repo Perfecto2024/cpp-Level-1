@@ -1,0 +1,4 @@
+﻿  Project_11.cpp
+C:\Users\DELL\C++_Project\cpp-Level-1\Project_11\Project_11\Project_11.cpp(20,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\DELL\C++_Project\cpp-Level-1\Project_11\Project_11\Project_11.cpp(22,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Project_11.vcxproj -> C:\Users\DELL\C++_Project\cpp-Level-1\Project_11\x64\Debug\Project_11.exe
